@@ -12,6 +12,11 @@
 		03AFE2E42ABC43AE001443A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03AFE2E32ABC43AE001443A3 /* Assets.xcassets */; };
 		03AFE2E72ABC43AE001443A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03AFE2E62ABC43AE001443A3 /* Preview Assets.xcassets */; };
 		03AFE2EF2ABC453B001443A3 /* ButtonStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AFE2EE2ABC453B001443A3 /* ButtonStyleTests.swift */; };
+		03AFE2F22ABC45BA001443A3 /* NavigationTitleTooLong.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AFE2F12ABC45BA001443A3 /* NavigationTitleTooLong.swift */; };
+		03AFE2F42ABC4765001443A3 /* NavigationTitleOk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AFE2F32ABC4765001443A3 /* NavigationTitleOk.swift */; };
+		03AFE2F62ABC47A5001443A3 /* NavigationTitleEdge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AFE2F52ABC47A5001443A3 /* NavigationTitleEdge.swift */; };
+		03AFE2FB2ABC4865001443A3 /* NavigationTitleVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AFE2FA2ABC4865001443A3 /* NavigationTitleVariable.swift */; };
+		03AFE2FD2ABC48EF001443A3 /* NavigationTitleState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AFE2FC2ABC48EF001443A3 /* NavigationTitleState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +26,11 @@
 		03AFE2E32ABC43AE001443A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03AFE2E62ABC43AE001443A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		03AFE2EE2ABC453B001443A3 /* ButtonStyleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleTests.swift; sourceTree = "<group>"; };
+		03AFE2F12ABC45BA001443A3 /* NavigationTitleTooLong.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTitleTooLong.swift; sourceTree = "<group>"; };
+		03AFE2F32ABC4765001443A3 /* NavigationTitleOk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTitleOk.swift; sourceTree = "<group>"; };
+		03AFE2F52ABC47A5001443A3 /* NavigationTitleEdge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTitleEdge.swift; sourceTree = "<group>"; };
+		03AFE2FA2ABC4865001443A3 /* NavigationTitleVariable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTitleVariable.swift; sourceTree = "<group>"; };
+		03AFE2FC2ABC48EF001443A3 /* NavigationTitleState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTitleState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 				03AFE2DF2ABC43AB001443A3 /* Test_ProjectApp.swift */,
 				03AFE2E12ABC43AB001443A3 /* ContentView.swift */,
 				03AFE2ED2ABC452A001443A3 /* Buttons */,
+				03AFE2F02ABC459C001443A3 /* NavigationBars */,
 				03AFE2E32ABC43AE001443A3 /* Assets.xcassets */,
 				03AFE2E52ABC43AE001443A3 /* Preview Content */,
 			);
@@ -78,6 +89,26 @@
 			path = Buttons;
 			sourceTree = "<group>";
 		};
+		03AFE2F02ABC459C001443A3 /* NavigationBars */ = {
+			isa = PBXGroup;
+			children = (
+				03AFE2F72ABC47D8001443A3 /* NavigationBarTitle */,
+			);
+			path = NavigationBars;
+			sourceTree = "<group>";
+		};
+		03AFE2F72ABC47D8001443A3 /* NavigationBarTitle */ = {
+			isa = PBXGroup;
+			children = (
+				03AFE2F52ABC47A5001443A3 /* NavigationTitleEdge.swift */,
+				03AFE2F32ABC4765001443A3 /* NavigationTitleOk.swift */,
+				03AFE2F12ABC45BA001443A3 /* NavigationTitleTooLong.swift */,
+				03AFE2FA2ABC4865001443A3 /* NavigationTitleVariable.swift */,
+				03AFE2FC2ABC48EF001443A3 /* NavigationTitleState.swift */,
+			);
+			path = NavigationBarTitle;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -88,6 +119,7 @@
 				03AFE2D82ABC43AB001443A3 /* Sources */,
 				03AFE2D92ABC43AB001443A3 /* Frameworks */,
 				03AFE2DA2ABC43AB001443A3 /* Resources */,
+				03CF3D902ABC713C0074CFC6 /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -143,14 +175,41 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03CF3D902ABC713C0074CFC6 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run SwiftLint\nsh ../scripts/swiftlint.sh\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		03AFE2D82ABC43AB001443A3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03AFE2FB2ABC4865001443A3 /* NavigationTitleVariable.swift in Sources */,
 				03AFE2E22ABC43AB001443A3 /* ContentView.swift in Sources */,
 				03AFE2EF2ABC453B001443A3 /* ButtonStyleTests.swift in Sources */,
 				03AFE2E02ABC43AB001443A3 /* Test_ProjectApp.swift in Sources */,
+				03AFE2FD2ABC48EF001443A3 /* NavigationTitleState.swift in Sources */,
+				03AFE2F22ABC45BA001443A3 /* NavigationTitleTooLong.swift in Sources */,
+				03AFE2F42ABC4765001443A3 /* NavigationTitleOk.swift in Sources */,
+				03AFE2F62ABC47A5001443A3 /* NavigationTitleEdge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
