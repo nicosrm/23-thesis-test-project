@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03254C102ABD97470052664D /* TapGestureFeedbackSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03254C0F2ABD97470052664D /* TapGestureFeedbackSound.swift */; };
 		03AFE2E02ABC43AB001443A3 /* Test_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AFE2DF2ABC43AB001443A3 /* Test_ProjectApp.swift */; };
 		03AFE2E22ABC43AB001443A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AFE2E12ABC43AB001443A3 /* ContentView.swift */; };
 		03AFE2E42ABC43AE001443A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03AFE2E32ABC43AE001443A3 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		03254C0F2ABD97470052664D /* TapGestureFeedbackSound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureFeedbackSound.swift; sourceTree = "<group>"; };
 		03AFE2DC2ABC43AB001443A3 /* Test Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03AFE2DF2ABC43AB001443A3 /* Test_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_ProjectApp.swift; sourceTree = "<group>"; };
 		03AFE2E12ABC43AB001443A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +46,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03254C0E2ABD972E0052664D /* FeedbackSound */ = {
+			isa = PBXGroup;
+			children = (
+				03254C0F2ABD97470052664D /* TapGestureFeedbackSound.swift */,
+			);
+			path = FeedbackSound;
+			sourceTree = "<group>";
+		};
 		03AFE2D32ABC43AB001443A3 = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +94,7 @@
 		03AFE2ED2ABC452A001443A3 /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
+				03254C0E2ABD972E0052664D /* FeedbackSound */,
 				03AFE2EE2ABC453B001443A3 /* ButtonStyleTests.swift */,
 			);
 			path = Buttons;
@@ -202,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03254C102ABD97470052664D /* TapGestureFeedbackSound.swift in Sources */,
 				03AFE2FB2ABC4865001443A3 /* NavigationTitleVariable.swift in Sources */,
 				03AFE2E22ABC43AB001443A3 /* ContentView.swift in Sources */,
 				03AFE2EF2ABC453B001443A3 /* ButtonStyleTests.swift in Sources */,
