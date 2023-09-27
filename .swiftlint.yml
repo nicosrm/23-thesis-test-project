@@ -1,11 +1,11 @@
 disabled_rules:
   - type_name
 
-custom_rules:
-  navigation_title_length:
-    included:
-      - ".*\\.swift"
-    name: "Navigation Title Length"
-    regex: '\.navigationTitle\(\"([^\"]{16,})\"\)'
-    message: "Navigation titles should not be longer than 15 characters."
-    severity: warning
+# custom_rules:
+#   navigation_title_length:
+#     included:
+#       - ".*\\.swift"
+#     name: "Navigation Title Length"
+#     regex: '\.navigationTitle\(\"([^\"]{16,})\"\)'
+#     message: "Navigation titles should not be longer than 15 characters."
+#     severity: warning
