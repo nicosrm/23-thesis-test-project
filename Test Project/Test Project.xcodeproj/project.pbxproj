@@ -7,7 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0312FE982AC56734006632B8 /* HStackClipShapeOutside.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0312FE972AC56734006632B8 /* HStackClipShapeOutside.swift */; };
+		0312FE9A2AC56799006632B8 /* HStackButtonBorderShapeCapsuleOutside.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0312FE992AC56799006632B8 /* HStackButtonBorderShapeCapsuleOutside.swift */; };
+		0312FE9C2AC567D2006632B8 /* HStackButtonBorderShapeCapsuleInside.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0312FE9B2AC567D2006632B8 /* HStackButtonBorderShapeCapsuleInside.swift */; };
+		0312FE9E2AC567FF006632B8 /* HStackClipShapeInside.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0312FE9D2AC567FF006632B8 /* HStackClipShapeInside.swift */; };
+		0312FEA02AC56E6E006632B8 /* HStackButtonStyleBorderedInside.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0312FE9F2AC56E6E006632B8 /* HStackButtonStyleBorderedInside.swift */; };
+		0312FEA22AC56EB8006632B8 /* HSTackButtonStyleBorderedOutside.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0312FEA12AC56EB8006632B8 /* HSTackButtonStyleBorderedOutside.swift */; };
+		0312FEA42AC56EF0006632B8 /* HStackButtonStyleBorderedProminentOutside.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0312FEA32AC56EF0006632B8 /* HStackButtonStyleBorderedProminentOutside.swift */; };
 		03254C102ABD97470052664D /* TapGestureFeedbackSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03254C0F2ABD97470052664D /* TapGestureFeedbackSound.swift */; };
+		039AA5A62AC461FA00D657BF /* VStackButtonStyleBorderedOutside.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039AA5A52AC461FA00D657BF /* VStackButtonStyleBorderedOutside.swift */; };
+		039AA5A92AC4627800D657BF /* VStackButtonStyleBorderedInside.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039AA5A82AC4627800D657BF /* VStackButtonStyleBorderedInside.swift */; };
+		039AA5AC2AC467A700D657BF /* VStackCapsuleOutside.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039AA5AB2AC467A700D657BF /* VStackCapsuleOutside.swift */; };
 		03AFE2E02ABC43AB001443A3 /* Test_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AFE2DF2ABC43AB001443A3 /* Test_ProjectApp.swift */; };
 		03AFE2E22ABC43AB001443A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AFE2E12ABC43AB001443A3 /* ContentView.swift */; };
 		03AFE2E42ABC43AE001443A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03AFE2E32ABC43AE001443A3 /* Assets.xcassets */; };
@@ -21,7 +31,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0312FE972AC56734006632B8 /* HStackClipShapeOutside.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackClipShapeOutside.swift; sourceTree = "<group>"; };
+		0312FE992AC56799006632B8 /* HStackButtonBorderShapeCapsuleOutside.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackButtonBorderShapeCapsuleOutside.swift; sourceTree = "<group>"; };
+		0312FE9B2AC567D2006632B8 /* HStackButtonBorderShapeCapsuleInside.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HStackButtonBorderShapeCapsuleInside.swift; sourceTree = "<group>"; };
+		0312FE9D2AC567FF006632B8 /* HStackClipShapeInside.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HStackClipShapeInside.swift; sourceTree = "<group>"; };
+		0312FE9F2AC56E6E006632B8 /* HStackButtonStyleBorderedInside.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackButtonStyleBorderedInside.swift; sourceTree = "<group>"; };
+		0312FEA12AC56EB8006632B8 /* HSTackButtonStyleBorderedOutside.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSTackButtonStyleBorderedOutside.swift; sourceTree = "<group>"; };
+		0312FEA32AC56EF0006632B8 /* HStackButtonStyleBorderedProminentOutside.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackButtonStyleBorderedProminentOutside.swift; sourceTree = "<group>"; };
 		03254C0F2ABD97470052664D /* TapGestureFeedbackSound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureFeedbackSound.swift; sourceTree = "<group>"; };
+		039AA5A52AC461FA00D657BF /* VStackButtonStyleBorderedOutside.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackButtonStyleBorderedOutside.swift; sourceTree = "<group>"; };
+		039AA5A82AC4627800D657BF /* VStackButtonStyleBorderedInside.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackButtonStyleBorderedInside.swift; sourceTree = "<group>"; };
+		039AA5AB2AC467A700D657BF /* VStackCapsuleOutside.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackCapsuleOutside.swift; sourceTree = "<group>"; };
 		03AFE2DC2ABC43AB001443A3 /* Test Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03AFE2DF2ABC43AB001443A3 /* Test_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_ProjectApp.swift; sourceTree = "<group>"; };
 		03AFE2E12ABC43AB001443A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,12 +66,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0312FE942AC56711006632B8 /* HStack */ = {
+			isa = PBXGroup;
+			children = (
+				0312FE962AC5671A006632B8 /* NonTriggering */,
+				0312FE952AC56716006632B8 /* Triggering */,
+			);
+			path = HStack;
+			sourceTree = "<group>";
+		};
+		0312FE952AC56716006632B8 /* Triggering */ = {
+			isa = PBXGroup;
+			children = (
+				0312FE9F2AC56E6E006632B8 /* HStackButtonStyleBorderedInside.swift */,
+				0312FEA12AC56EB8006632B8 /* HSTackButtonStyleBorderedOutside.swift */,
+				0312FEA32AC56EF0006632B8 /* HStackButtonStyleBorderedProminentOutside.swift */,
+			);
+			path = Triggering;
+			sourceTree = "<group>";
+		};
+		0312FE962AC5671A006632B8 /* NonTriggering */ = {
+			isa = PBXGroup;
+			children = (
+				0312FE992AC56799006632B8 /* HStackButtonBorderShapeCapsuleOutside.swift */,
+				0312FE9B2AC567D2006632B8 /* HStackButtonBorderShapeCapsuleInside.swift */,
+				0312FE972AC56734006632B8 /* HStackClipShapeOutside.swift */,
+				0312FE9D2AC567FF006632B8 /* HStackClipShapeInside.swift */,
+			);
+			path = NonTriggering;
+			sourceTree = "<group>";
+		};
 		03254C0E2ABD972E0052664D /* FeedbackSound */ = {
 			isa = PBXGroup;
 			children = (
 				03254C0F2ABD97470052664D /* TapGestureFeedbackSound.swift */,
 			);
 			path = FeedbackSound;
+			sourceTree = "<group>";
+		};
+		039AA5972AC454C500D657BF /* Shape */ = {
+			isa = PBXGroup;
+			children = (
+				0312FE942AC56711006632B8 /* HStack */,
+				039AA5A42AC45B4500D657BF /* VStack */,
+			);
+			path = Shape;
+			sourceTree = "<group>";
+		};
+		039AA5A42AC45B4500D657BF /* VStack */ = {
+			isa = PBXGroup;
+			children = (
+				039AA5A72AC4626200D657BF /* NonTriggering */,
+				039AA5AA2AC4678400D657BF /* Triggering */,
+			);
+			path = VStack;
+			sourceTree = "<group>";
+		};
+		039AA5A72AC4626200D657BF /* NonTriggering */ = {
+			isa = PBXGroup;
+			children = (
+				039AA5A82AC4627800D657BF /* VStackButtonStyleBorderedInside.swift */,
+				039AA5A52AC461FA00D657BF /* VStackButtonStyleBorderedOutside.swift */,
+			);
+			path = NonTriggering;
+			sourceTree = "<group>";
+		};
+		039AA5AA2AC4678400D657BF /* Triggering */ = {
+			isa = PBXGroup;
+			children = (
+				039AA5AB2AC467A700D657BF /* VStackCapsuleOutside.swift */,
+			);
+			path = Triggering;
 			sourceTree = "<group>";
 		};
 		03AFE2D32ABC43AB001443A3 = {
@@ -94,6 +179,7 @@
 		03AFE2ED2ABC452A001443A3 /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
+				039AA5972AC454C500D657BF /* Shape */,
 				03254C0E2ABD972E0052664D /* FeedbackSound */,
 				03AFE2EE2ABC453B001443A3 /* ButtonStyleTests.swift */,
 			);
@@ -214,14 +300,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				03254C102ABD97470052664D /* TapGestureFeedbackSound.swift in Sources */,
+				0312FE982AC56734006632B8 /* HStackClipShapeOutside.swift in Sources */,
 				03AFE2FB2ABC4865001443A3 /* NavigationTitleVariable.swift in Sources */,
 				03AFE2E22ABC43AB001443A3 /* ContentView.swift in Sources */,
 				03AFE2EF2ABC453B001443A3 /* ButtonStyleTests.swift in Sources */,
+				0312FE9E2AC567FF006632B8 /* HStackClipShapeInside.swift in Sources */,
+				0312FEA22AC56EB8006632B8 /* HSTackButtonStyleBorderedOutside.swift in Sources */,
 				03AFE2E02ABC43AB001443A3 /* Test_ProjectApp.swift in Sources */,
+				039AA5AC2AC467A700D657BF /* VStackCapsuleOutside.swift in Sources */,
+				039AA5A92AC4627800D657BF /* VStackButtonStyleBorderedInside.swift in Sources */,
+				0312FE9C2AC567D2006632B8 /* HStackButtonBorderShapeCapsuleInside.swift in Sources */,
 				03AFE2FD2ABC48EF001443A3 /* NavigationTitleState.swift in Sources */,
+				0312FEA02AC56E6E006632B8 /* HStackButtonStyleBorderedInside.swift in Sources */,
+				0312FE9A2AC56799006632B8 /* HStackButtonBorderShapeCapsuleOutside.swift in Sources */,
 				03AFE2F22ABC45BA001443A3 /* NavigationTitleTooLong.swift in Sources */,
 				03AFE2F42ABC4765001443A3 /* NavigationTitleOk.swift in Sources */,
+				039AA5A62AC461FA00D657BF /* VStackButtonStyleBorderedOutside.swift in Sources */,
 				03AFE2F62ABC47A5001443A3 /* NavigationTitleEdge.swift in Sources */,
+				0312FEA42AC56EF0006632B8 /* HStackButtonStyleBorderedProminentOutside.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
