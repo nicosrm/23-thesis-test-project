@@ -18,7 +18,7 @@ bazel run swiftlint_xcodeproj
 
 ## Usage
 
-There are multiple options to run SwiftLint. Either run the `swiftlint` scheme from the `Test Project.xcworkspace` or run the following command in the root directory of this repository:
+There are multiple options to run SwiftLint. Either run the `swiftlint` scheme from the `Test Project.xcworkspace`, build or run the `Test Project` scheme or run the following command in the root directory of this repository:
 
 ```sh
 bazel run -c opt @SwiftLint//:swiftlint
