@@ -11,12 +11,15 @@ disabled_rules:
   - button_shape_hstack_warning
   - feedback_sound
   - navigation_title_length
+  - navigation_title_length_warning
+  - toggle_button_style
 
 opt_in_rules:
   # custom rules
   - button_background_notifier
   - button_shape_vstack_warning
   - button_shape_hstack_warning
+  - navigation_title_length_warning
   - toggle_button_style
 
 # custom_rules:
