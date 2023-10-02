@@ -28,6 +28,7 @@
 		03AFE2F62ABC47A5001443A3 /* NavigationTitleEdge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AFE2F52ABC47A5001443A3 /* NavigationTitleEdge.swift */; };
 		03AFE2FB2ABC4865001443A3 /* NavigationTitleVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AFE2FA2ABC4865001443A3 /* NavigationTitleVariable.swift */; };
 		03AFE2FD2ABC48EF001443A3 /* NavigationTitleState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AFE2FC2ABC48EF001443A3 /* NavigationTitleState.swift */; };
+		B652F6A42ACAAAAA002E85C5 /* TriggeringToggleButtonBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = B652F6A32ACAAAAA002E85C5 /* TriggeringToggleButtonBackground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		03AFE2F52ABC47A5001443A3 /* NavigationTitleEdge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTitleEdge.swift; sourceTree = "<group>"; };
 		03AFE2FA2ABC4865001443A3 /* NavigationTitleVariable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTitleVariable.swift; sourceTree = "<group>"; };
 		03AFE2FC2ABC48EF001443A3 /* NavigationTitleState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTitleState.swift; sourceTree = "<group>"; };
+		B652F6A32ACAAAAA002E85C5 /* TriggeringToggleButtonBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggeringToggleButtonBackground.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,9 +181,10 @@
 		03AFE2ED2ABC452A001443A3 /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
-				039AA5972AC454C500D657BF /* Shape */,
-				03254C0E2ABD972E0052664D /* FeedbackSound */,
 				03AFE2EE2ABC453B001443A3 /* ButtonStyleTests.swift */,
+				03254C0E2ABD972E0052664D /* FeedbackSound */,
+				039AA5972AC454C500D657BF /* Shape */,
+				B652F69E2ACAA209002E85C5 /* Toggle */,
 			);
 			path = Buttons;
 			sourceTree = "<group>";
@@ -204,6 +207,14 @@
 				03AFE2FC2ABC48EF001443A3 /* NavigationTitleState.swift */,
 			);
 			path = NavigationBarTitle;
+			sourceTree = "<group>";
+		};
+		B652F69E2ACAA209002E85C5 /* Toggle */ = {
+			isa = PBXGroup;
+			children = (
+				B652F6A32ACAAAAA002E85C5 /* TriggeringToggleButtonBackground.swift */,
+			);
+			path = Toggle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,6 +326,7 @@
 				0312FE9A2AC56799006632B8 /* HStackButtonBorderShapeCapsuleOutside.swift in Sources */,
 				03AFE2F22ABC45BA001443A3 /* NavigationTitleTooLong.swift in Sources */,
 				03AFE2F42ABC4765001443A3 /* NavigationTitleOk.swift in Sources */,
+				B652F6A42ACAAAAA002E85C5 /* TriggeringToggleButtonBackground.swift in Sources */,
 				039AA5A62AC461FA00D657BF /* VStackButtonStyleBorderedOutside.swift in Sources */,
 				03AFE2F62ABC47A5001443A3 /* NavigationTitleEdge.swift in Sources */,
 				0312FEA42AC56EF0006632B8 /* HStackButtonStyleBorderedProminentOutside.swift in Sources */,
