@@ -1,5 +1,12 @@
+included:
+  - Test\ Project/Test\ Project/*
+
 disabled_rules:
   - type_name
+
+opt_in_rules:
+  - button_shape_vstack_warning
+  - button_shape_hstack_warning
 
 # custom_rules:
 #   navigation_title_length:
