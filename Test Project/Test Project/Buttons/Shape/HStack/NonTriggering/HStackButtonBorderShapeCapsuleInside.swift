@@ -18,6 +18,7 @@ struct HStackButtonBorderShapeCapsuleInside: View {
 
             Button("bordered", action: {})
                 .buttonStyle(.bordered)
+                .buttonBorderShape(.capsule)
 
                 .buttonBorderShape(.capsule)
             Button("bordered", action: {})
