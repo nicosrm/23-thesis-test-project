@@ -12,6 +12,10 @@
 		B637EE8F2ADC32740010BCC0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B637EE8E2ADC32740010BCC0 /* ContentView.swift */; };
 		B637EE912ADC32750010BCC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B637EE902ADC32750010BCC0 /* Assets.xcassets */; };
 		B637EE942ADC32750010BCC0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B637EE932ADC32750010BCC0 /* Preview Assets.xcassets */; };
+		B637EEA22ADC368B0010BCC0 /* Button_FeedbackSound_AudioServicesPlaySystemSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = B637EEA12ADC368B0010BCC0 /* Button_FeedbackSound_AudioServicesPlaySystemSound.swift */; };
+		B637EEA82ADC37860010BCC0 /* Button_FeedbackSound_AVAudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B637EEA72ADC37860010BCC0 /* Button_FeedbackSound_AVAudioPlayer.swift */; };
+		B637EEAC2ADC39630010BCC0 /* Button_FeedbackSound_Triggering.swift in Sources */ = {isa = PBXBuildFile; fileRef = B637EEAB2ADC39630010BCC0 /* Button_FeedbackSound_Triggering.swift */; };
+		B637EEAF2ADC3BAC0010BCC0 /* Button_FeedbackSound_SystemButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B637EEAE2ADC3BAC0010BCC0 /* Button_FeedbackSound_SystemButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		B637EE902ADC32750010BCC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B637EE932ADC32750010BCC0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B637EE952ADC32750010BCC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B637EEA12ADC368B0010BCC0 /* Button_FeedbackSound_AudioServicesPlaySystemSound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_FeedbackSound_AudioServicesPlaySystemSound.swift; sourceTree = "<group>"; };
+		B637EEA72ADC37860010BCC0 /* Button_FeedbackSound_AVAudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_FeedbackSound_AVAudioPlayer.swift; sourceTree = "<group>"; };
+		B637EEAB2ADC39630010BCC0 /* Button_FeedbackSound_Triggering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_FeedbackSound_Triggering.swift; sourceTree = "<group>"; };
+		B637EEAE2ADC3BAC0010BCC0 /* Button_FeedbackSound_SystemButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_FeedbackSound_SystemButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,7 @@
 				B637EE8E2ADC32740010BCC0 /* ContentView.swift */,
 				B637EE902ADC32750010BCC0 /* Assets.xcassets */,
 				B637EE952ADC32750010BCC0 /* Info.plist */,
+				B637EE9D2ADC363F0010BCC0 /* Button */,
 				B637EE922ADC32750010BCC0 /* Preview Content */,
 			);
 			path = TestProject;
@@ -81,6 +90,41 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		B637EE9D2ADC363F0010BCC0 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				B637EE9E2ADC364A0010BCC0 /* FeedbackSound */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		B637EE9E2ADC364A0010BCC0 /* FeedbackSound */ = {
+			isa = PBXGroup;
+			children = (
+				B637EEA02ADC36660010BCC0 /* NonTriggering */,
+				B637EEAA2ADC394C0010BCC0 /* Triggering */,
+			);
+			path = FeedbackSound;
+			sourceTree = "<group>";
+		};
+		B637EEA02ADC36660010BCC0 /* NonTriggering */ = {
+			isa = PBXGroup;
+			children = (
+				B637EEA12ADC368B0010BCC0 /* Button_FeedbackSound_AudioServicesPlaySystemSound.swift */,
+				B637EEA72ADC37860010BCC0 /* Button_FeedbackSound_AVAudioPlayer.swift */,
+				B637EEAE2ADC3BAC0010BCC0 /* Button_FeedbackSound_SystemButton.swift */,
+			);
+			path = NonTriggering;
+			sourceTree = "<group>";
+		};
+		B637EEAA2ADC394C0010BCC0 /* Triggering */ = {
+			isa = PBXGroup;
+			children = (
+				B637EEAB2ADC39630010BCC0 /* Button_FeedbackSound_Triggering.swift */,
+			);
+			path = Triggering;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -91,6 +135,7 @@
 				B637EE812ADC32740010BCC0 /* Sources */,
 				B637EE822ADC32740010BCC0 /* Frameworks */,
 				B637EE832ADC32740010BCC0 /* Resources */,
+				B637EEAD2ADC39E70010BCC0 /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -176,7 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B637EEA22ADC368B0010BCC0 /* Button_FeedbackSound_AudioServicesPlaySystemSound.swift in Sources */,
+				B637EEAF2ADC3BAC0010BCC0 /* Button_FeedbackSound_SystemButton.swift in Sources */,
+				B637EEA82ADC37860010BCC0 /* Button_FeedbackSound_AVAudioPlayer.swift in Sources */,
 				B637EE8F2ADC32740010BCC0 /* ContentView.swift in Sources */,
+				B637EEAC2ADC39630010BCC0 /* Button_FeedbackSound_Triggering.swift in Sources */,
 				B637EE8D2ADC32740010BCC0 /* TestProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
