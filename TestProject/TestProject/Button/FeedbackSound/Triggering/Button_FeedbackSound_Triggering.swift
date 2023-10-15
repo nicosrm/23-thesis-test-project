@@ -6,8 +6,11 @@
 //
 
 import SwiftUI
+import AVFoundation
 
 struct Button_FeedbackSound_Triggering: View {
+
+    private var keyPressSoundID: SystemSoundID = 1104
 
     private var closure: () -> Void {
         { print("No sound playing") }
@@ -19,29 +22,34 @@ struct Button_FeedbackSound_Triggering: View {
 
             // T1.1
             Text("Trailing Closure")
-                .onTapGesture {
-                    print("No sound playing")
-                }
+                .onTapGestureWithSoundAndHoverEffect(
+                    soundID: self.keyPressSoundID,
+                    shape: .rect(cornerRadius: 10.0)
+                ) {}
 
             // T1.2
             Text("Count & Trailing Closure")
-                .onTapGesture(count: 1) {
-                    print("No sound playing")
-                }
+                .onTapGestureWithSoundAndHoverEffect(
+                    count: 1,
+                    soundID: self.keyPressSoundID,
+                    shape: .rect(cornerRadius: 10.0)
+                ) {}
 
             // T1.3
             Text("Closure")
-                .onTapGesture(
+                .onTapGestureWithSoundAndHoverEffect(
                     count: 1,
-                    perform: {
-                        print("No sound playing")
-                    }
+                    soundID: self.keyPressSoundID,
+                    shape: .rect(cornerRadius: 10.0),
+                    perform: {}
                 )
 
             // T1.4
             Text("Closure")
-                .onTapGesture(
+                .onTapGestureWithSoundAndHoverEffect(
                     count: 1,
+                    soundID: self.keyPressSoundID,
+                    shape: .rect(cornerRadius: 10.0),
                     perform: self.closure
                 )
         }
