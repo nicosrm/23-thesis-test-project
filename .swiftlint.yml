@@ -1,32 +1,16 @@
 included:
-  - Test\ Project/Test\ Project/*
+  - TestProject/TestProject/*
 
 disabled_rules:
   # default rules
   - type_name
   # custom rules
-  - button_background_notifier
-  - button_shape_vstack_outer
-  - button_shape_vstack_warning
-  - button_shape_hstack_warning
-  - feedback_sound
-  - navigation_title_length
-  - navigation_title_length_warning
-  - toggle_button_style
 
 opt_in_rules:
   # custom rules
-  - button_background_notifier
-  - button_shape_vstack_warning
-  - button_shape_hstack_warning
-  - navigation_title_length_warning
-  - toggle_button_style
-
-# custom_rules:
-#   navigation_title_length:
-#     included:
-#       - ".*\\.swift"
-#     name: "Navigation Title Length"
-#     regex: '\.navigationTitle\(\"([^\"]{16,})\"\)'
-#     message: "Navigation titles should not be longer than 15 characters."
-#     severity: warning
+  # - button_background_notifier
+  # - button_shape_hstack_warning
+  # - button_shape_vstack_warning
+  # - navigation_title_length_warning
+  # - ornament_system_warning
+  # - ornament_width_warning
