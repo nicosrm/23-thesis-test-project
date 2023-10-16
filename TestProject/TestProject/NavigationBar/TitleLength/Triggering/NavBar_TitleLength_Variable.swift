@@ -9,7 +9,7 @@ import SwiftUI
 
 struct NavBar_TitleLength_Variable: View {
 
-    private var title = "Some too long variable title"
+    private var title = "Shortened title"
 
     var body: some View {
 

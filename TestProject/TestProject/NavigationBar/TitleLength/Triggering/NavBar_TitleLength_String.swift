@@ -13,7 +13,7 @@ struct NavBar_TitleLength_String: View {
 
         // T1
         Text("Hello World")
-            .navigationTitle("A too long title")
+            .navigationTitle("Shortened title")
     }
 }
 
