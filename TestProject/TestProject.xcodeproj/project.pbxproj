@@ -16,6 +16,10 @@
 		B637EEA82ADC37860010BCC0 /* Button_FeedbackSound_AVAudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B637EEA72ADC37860010BCC0 /* Button_FeedbackSound_AVAudioPlayer.swift */; };
 		B637EEAC2ADC39630010BCC0 /* Button_FeedbackSound_Triggering.swift in Sources */ = {isa = PBXBuildFile; fileRef = B637EEAB2ADC39630010BCC0 /* Button_FeedbackSound_Triggering.swift */; };
 		B637EEAF2ADC3BAC0010BCC0 /* Button_FeedbackSound_SystemButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B637EEAE2ADC3BAC0010BCC0 /* Button_FeedbackSound_SystemButton.swift */; };
+		B637EEC52ADD202B0010BCC0 /* Button_FocusShape_NonTriggering.swift in Sources */ = {isa = PBXBuildFile; fileRef = B637EEC42ADD202B0010BCC0 /* Button_FocusShape_NonTriggering.swift */; };
+		B637EEC72ADD204D0010BCC0 /* Button_FocusShape_BothMissing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B637EEC62ADD204D0010BCC0 /* Button_FocusShape_BothMissing.swift */; };
+		B637EEC92ADD20690010BCC0 /* Button_FocusShape_ContentShapeMissing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B637EEC82ADD20690010BCC0 /* Button_FocusShape_ContentShapeMissing.swift */; };
+		B637EECB2ADD20810010BCC0 /* Button_FocusShape_HoverEffectMissing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B637EECA2ADD20810010BCC0 /* Button_FocusShape_HoverEffectMissing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		B637EEA72ADC37860010BCC0 /* Button_FeedbackSound_AVAudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_FeedbackSound_AVAudioPlayer.swift; sourceTree = "<group>"; };
 		B637EEAB2ADC39630010BCC0 /* Button_FeedbackSound_Triggering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_FeedbackSound_Triggering.swift; sourceTree = "<group>"; };
 		B637EEAE2ADC3BAC0010BCC0 /* Button_FeedbackSound_SystemButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_FeedbackSound_SystemButton.swift; sourceTree = "<group>"; };
+		B637EEC42ADD202B0010BCC0 /* Button_FocusShape_NonTriggering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_FocusShape_NonTriggering.swift; sourceTree = "<group>"; };
+		B637EEC62ADD204D0010BCC0 /* Button_FocusShape_BothMissing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_FocusShape_BothMissing.swift; sourceTree = "<group>"; };
+		B637EEC82ADD20690010BCC0 /* Button_FocusShape_ContentShapeMissing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_FocusShape_ContentShapeMissing.swift; sourceTree = "<group>"; };
+		B637EECA2ADD20810010BCC0 /* Button_FocusShape_HoverEffectMissing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_FocusShape_HoverEffectMissing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				B637EE9E2ADC364A0010BCC0 /* FeedbackSound */,
+				B637EEC12ADD20040010BCC0 /* FocusShape */,
 			);
 			path = Button;
 			sourceTree = "<group>";
@@ -123,6 +132,33 @@
 				B637EEAB2ADC39630010BCC0 /* Button_FeedbackSound_Triggering.swift */,
 			);
 			path = Triggering;
+			sourceTree = "<group>";
+		};
+		B637EEC12ADD20040010BCC0 /* FocusShape */ = {
+			isa = PBXGroup;
+			children = (
+				B637EEC32ADD201A0010BCC0 /* NonTriggering */,
+				B637EEC22ADD20160010BCC0 /* Triggering */,
+			);
+			path = FocusShape;
+			sourceTree = "<group>";
+		};
+		B637EEC22ADD20160010BCC0 /* Triggering */ = {
+			isa = PBXGroup;
+			children = (
+				B637EEC62ADD204D0010BCC0 /* Button_FocusShape_BothMissing.swift */,
+				B637EEC82ADD20690010BCC0 /* Button_FocusShape_ContentShapeMissing.swift */,
+				B637EECA2ADD20810010BCC0 /* Button_FocusShape_HoverEffectMissing.swift */,
+			);
+			path = Triggering;
+			sourceTree = "<group>";
+		};
+		B637EEC32ADD201A0010BCC0 /* NonTriggering */ = {
+			isa = PBXGroup;
+			children = (
+				B637EEC42ADD202B0010BCC0 /* Button_FocusShape_NonTriggering.swift */,
+			);
+			path = NonTriggering;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,10 +257,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B637EEC92ADD20690010BCC0 /* Button_FocusShape_ContentShapeMissing.swift in Sources */,
+				B637EEC72ADD204D0010BCC0 /* Button_FocusShape_BothMissing.swift in Sources */,
 				B637EEA22ADC368B0010BCC0 /* Button_FeedbackSound_AudioServicesPlaySystemSound.swift in Sources */,
 				B637EEAF2ADC3BAC0010BCC0 /* Button_FeedbackSound_SystemButton.swift in Sources */,
 				B637EEA82ADC37860010BCC0 /* Button_FeedbackSound_AVAudioPlayer.swift in Sources */,
+				B637EEC52ADD202B0010BCC0 /* Button_FocusShape_NonTriggering.swift in Sources */,
 				B637EE8F2ADC32740010BCC0 /* ContentView.swift in Sources */,
+				B637EECB2ADD20810010BCC0 /* Button_FocusShape_HoverEffectMissing.swift in Sources */,
 				B637EEAC2ADC39630010BCC0 /* Button_FeedbackSound_Triggering.swift in Sources */,
 				B637EE8D2ADC32740010BCC0 /* TestProjectApp.swift in Sources */,
 			);
