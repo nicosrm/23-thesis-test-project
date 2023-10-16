@@ -20,6 +20,9 @@
 		B637EEC72ADD204D0010BCC0 /* Button_FocusShape_BothMissing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B637EEC62ADD204D0010BCC0 /* Button_FocusShape_BothMissing.swift */; };
 		B637EEC92ADD20690010BCC0 /* Button_FocusShape_ContentShapeMissing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B637EEC82ADD20690010BCC0 /* Button_FocusShape_ContentShapeMissing.swift */; };
 		B637EECB2ADD20810010BCC0 /* Button_FocusShape_HoverEffectMissing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B637EECA2ADD20810010BCC0 /* Button_FocusShape_HoverEffectMissing.swift */; };
+		B637EED72ADD48BF0010BCC0 /* NavBar_TitleLength_NonTriggering.swift in Sources */ = {isa = PBXBuildFile; fileRef = B637EED62ADD48BF0010BCC0 /* NavBar_TitleLength_NonTriggering.swift */; };
+		B637EED92ADD4BE00010BCC0 /* NavBar_TitleLength_String.swift in Sources */ = {isa = PBXBuildFile; fileRef = B637EED82ADD4BE00010BCC0 /* NavBar_TitleLength_String.swift */; };
+		B637EEDB2ADD4C050010BCC0 /* NavBar_TitleLength_Variable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B637EEDA2ADD4C050010BCC0 /* NavBar_TitleLength_Variable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +41,9 @@
 		B637EEC62ADD204D0010BCC0 /* Button_FocusShape_BothMissing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_FocusShape_BothMissing.swift; sourceTree = "<group>"; };
 		B637EEC82ADD20690010BCC0 /* Button_FocusShape_ContentShapeMissing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_FocusShape_ContentShapeMissing.swift; sourceTree = "<group>"; };
 		B637EECA2ADD20810010BCC0 /* Button_FocusShape_HoverEffectMissing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_FocusShape_HoverEffectMissing.swift; sourceTree = "<group>"; };
+		B637EED62ADD48BF0010BCC0 /* NavBar_TitleLength_NonTriggering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBar_TitleLength_NonTriggering.swift; sourceTree = "<group>"; };
+		B637EED82ADD4BE00010BCC0 /* NavBar_TitleLength_String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBar_TitleLength_String.swift; sourceTree = "<group>"; };
+		B637EEDA2ADD4C050010BCC0 /* NavBar_TitleLength_Variable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBar_TitleLength_Variable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,7 @@
 				B637EE902ADC32750010BCC0 /* Assets.xcassets */,
 				B637EE952ADC32750010BCC0 /* Info.plist */,
 				B637EE9D2ADC363F0010BCC0 /* Button */,
+				B637EED22ADD488E0010BCC0 /* NavigationBar */,
 				B637EE922ADC32750010BCC0 /* Preview Content */,
 			);
 			path = TestProject;
@@ -157,6 +164,40 @@
 			isa = PBXGroup;
 			children = (
 				B637EEC42ADD202B0010BCC0 /* Button_FocusShape_NonTriggering.swift */,
+			);
+			path = NonTriggering;
+			sourceTree = "<group>";
+		};
+		B637EED22ADD488E0010BCC0 /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				B637EED32ADD48980010BCC0 /* TitleLength */,
+			);
+			path = NavigationBar;
+			sourceTree = "<group>";
+		};
+		B637EED32ADD48980010BCC0 /* TitleLength */ = {
+			isa = PBXGroup;
+			children = (
+				B637EED52ADD48A40010BCC0 /* NonTriggering */,
+				B637EED42ADD489E0010BCC0 /* Triggering */,
+			);
+			path = TitleLength;
+			sourceTree = "<group>";
+		};
+		B637EED42ADD489E0010BCC0 /* Triggering */ = {
+			isa = PBXGroup;
+			children = (
+				B637EED82ADD4BE00010BCC0 /* NavBar_TitleLength_String.swift */,
+				B637EEDA2ADD4C050010BCC0 /* NavBar_TitleLength_Variable.swift */,
+			);
+			path = Triggering;
+			sourceTree = "<group>";
+		};
+		B637EED52ADD48A40010BCC0 /* NonTriggering */ = {
+			isa = PBXGroup;
+			children = (
+				B637EED62ADD48BF0010BCC0 /* NavBar_TitleLength_NonTriggering.swift */,
 			);
 			path = NonTriggering;
 			sourceTree = "<group>";
@@ -258,13 +299,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				B637EEC92ADD20690010BCC0 /* Button_FocusShape_ContentShapeMissing.swift in Sources */,
+				B637EED72ADD48BF0010BCC0 /* NavBar_TitleLength_NonTriggering.swift in Sources */,
 				B637EEC72ADD204D0010BCC0 /* Button_FocusShape_BothMissing.swift in Sources */,
 				B637EEA22ADC368B0010BCC0 /* Button_FeedbackSound_AudioServicesPlaySystemSound.swift in Sources */,
 				B637EEAF2ADC3BAC0010BCC0 /* Button_FeedbackSound_SystemButton.swift in Sources */,
+				B637EED92ADD4BE00010BCC0 /* NavBar_TitleLength_String.swift in Sources */,
 				B637EEA82ADC37860010BCC0 /* Button_FeedbackSound_AVAudioPlayer.swift in Sources */,
 				B637EEC52ADD202B0010BCC0 /* Button_FocusShape_NonTriggering.swift in Sources */,
 				B637EE8F2ADC32740010BCC0 /* ContentView.swift in Sources */,
 				B637EECB2ADD20810010BCC0 /* Button_FocusShape_HoverEffectMissing.swift in Sources */,
+				B637EEDB2ADD4C050010BCC0 /* NavBar_TitleLength_Variable.swift in Sources */,
 				B637EEAC2ADC39630010BCC0 /* Button_FeedbackSound_Triggering.swift in Sources */,
 				B637EE8D2ADC32740010BCC0 /* TestProjectApp.swift in Sources */,
 			);
