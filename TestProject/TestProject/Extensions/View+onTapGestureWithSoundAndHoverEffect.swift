@@ -34,6 +34,7 @@ extension View {
             AudioServicesPlaySystemSound(soundID)
             action()
         }
+        .padding()
         .contentShape(.hoverEffect, shape)
         .hoverEffect(hoverEffect)
     }
@@ -68,6 +69,7 @@ extension View {
             }
             action()
         }
+        .padding()
         .contentShape(.hoverEffect, shape)
         .hoverEffect(hoverEffect)
     }
