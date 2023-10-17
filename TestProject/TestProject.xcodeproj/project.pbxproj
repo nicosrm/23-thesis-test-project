@@ -23,6 +23,10 @@
 		B637EED72ADD48BF0010BCC0 /* NavBar_TitleLength_NonTriggering.swift in Sources */ = {isa = PBXBuildFile; fileRef = B637EED62ADD48BF0010BCC0 /* NavBar_TitleLength_NonTriggering.swift */; };
 		B637EED92ADD4BE00010BCC0 /* NavBar_TitleLength_String.swift in Sources */ = {isa = PBXBuildFile; fileRef = B637EED82ADD4BE00010BCC0 /* NavBar_TitleLength_String.swift */; };
 		B637EEDB2ADD4C050010BCC0 /* NavBar_TitleLength_Variable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B637EEDA2ADD4C050010BCC0 /* NavBar_TitleLength_Variable.swift */; };
+		B687116F2ADE956900D7E8DC /* Button_ToggleStyle_NonTriggering.swift in Sources */ = {isa = PBXBuildFile; fileRef = B687116E2ADE956900D7E8DC /* Button_ToggleStyle_NonTriggering.swift */; };
+		B68711712ADE95BC00D7E8DC /* Button_ToggleStyle_PassedDirectly.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68711702ADE95BC00D7E8DC /* Button_ToggleStyle_PassedDirectly.swift */; };
+		B68711732ADE971400D7E8DC /* Button_ToggleStyle_Variable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68711722ADE971400D7E8DC /* Button_ToggleStyle_Variable.swift */; };
+		B68711752ADE97DF00D7E8DC /* Button_ToggleStyle_DifferentScope.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68711742ADE97DF00D7E8DC /* Button_ToggleStyle_DifferentScope.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +48,10 @@
 		B637EED62ADD48BF0010BCC0 /* NavBar_TitleLength_NonTriggering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBar_TitleLength_NonTriggering.swift; sourceTree = "<group>"; };
 		B637EED82ADD4BE00010BCC0 /* NavBar_TitleLength_String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBar_TitleLength_String.swift; sourceTree = "<group>"; };
 		B637EEDA2ADD4C050010BCC0 /* NavBar_TitleLength_Variable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBar_TitleLength_Variable.swift; sourceTree = "<group>"; };
+		B687116E2ADE956900D7E8DC /* Button_ToggleStyle_NonTriggering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_ToggleStyle_NonTriggering.swift; sourceTree = "<group>"; };
+		B68711702ADE95BC00D7E8DC /* Button_ToggleStyle_PassedDirectly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_ToggleStyle_PassedDirectly.swift; sourceTree = "<group>"; };
+		B68711722ADE971400D7E8DC /* Button_ToggleStyle_Variable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_ToggleStyle_Variable.swift; sourceTree = "<group>"; };
+		B68711742ADE97DF00D7E8DC /* Button_ToggleStyle_DifferentScope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_ToggleStyle_DifferentScope.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +118,7 @@
 			children = (
 				B637EE9E2ADC364A0010BCC0 /* FeedbackSound */,
 				B637EEC12ADD20040010BCC0 /* FocusShape */,
+				B687116B2ADE952000D7E8DC /* ToggleStyle */,
 			);
 			path = Button;
 			sourceTree = "<group>";
@@ -198,6 +207,33 @@
 			isa = PBXGroup;
 			children = (
 				B637EED62ADD48BF0010BCC0 /* NavBar_TitleLength_NonTriggering.swift */,
+			);
+			path = NonTriggering;
+			sourceTree = "<group>";
+		};
+		B687116B2ADE952000D7E8DC /* ToggleStyle */ = {
+			isa = PBXGroup;
+			children = (
+				B687116D2ADE953100D7E8DC /* NonTriggering */,
+				B687116C2ADE952800D7E8DC /* Triggering */,
+			);
+			path = ToggleStyle;
+			sourceTree = "<group>";
+		};
+		B687116C2ADE952800D7E8DC /* Triggering */ = {
+			isa = PBXGroup;
+			children = (
+				B68711742ADE97DF00D7E8DC /* Button_ToggleStyle_DifferentScope.swift */,
+				B68711702ADE95BC00D7E8DC /* Button_ToggleStyle_PassedDirectly.swift */,
+				B68711722ADE971400D7E8DC /* Button_ToggleStyle_Variable.swift */,
+			);
+			path = Triggering;
+			sourceTree = "<group>";
+		};
+		B687116D2ADE953100D7E8DC /* NonTriggering */ = {
+			isa = PBXGroup;
+			children = (
+				B687116E2ADE956900D7E8DC /* Button_ToggleStyle_NonTriggering.swift */,
 			);
 			path = NonTriggering;
 			sourceTree = "<group>";
@@ -304,11 +340,15 @@
 				B637EEA22ADC368B0010BCC0 /* Button_FeedbackSound_AudioServicesPlaySystemSound.swift in Sources */,
 				B637EEAF2ADC3BAC0010BCC0 /* Button_FeedbackSound_SystemButton.swift in Sources */,
 				B637EED92ADD4BE00010BCC0 /* NavBar_TitleLength_String.swift in Sources */,
+				B687116F2ADE956900D7E8DC /* Button_ToggleStyle_NonTriggering.swift in Sources */,
 				B637EEA82ADC37860010BCC0 /* Button_FeedbackSound_AVAudioPlayer.swift in Sources */,
 				B637EEC52ADD202B0010BCC0 /* Button_FocusShape_NonTriggering.swift in Sources */,
 				B637EE8F2ADC32740010BCC0 /* ContentView.swift in Sources */,
+				B68711712ADE95BC00D7E8DC /* Button_ToggleStyle_PassedDirectly.swift in Sources */,
 				B637EECB2ADD20810010BCC0 /* Button_FocusShape_HoverEffectMissing.swift in Sources */,
 				B637EEDB2ADD4C050010BCC0 /* NavBar_TitleLength_Variable.swift in Sources */,
+				B68711732ADE971400D7E8DC /* Button_ToggleStyle_Variable.swift in Sources */,
+				B68711752ADE97DF00D7E8DC /* Button_ToggleStyle_DifferentScope.swift in Sources */,
 				B637EEAC2ADC39630010BCC0 /* Button_FeedbackSound_Triggering.swift in Sources */,
 				B637EE8D2ADC32740010BCC0 /* TestProjectApp.swift in Sources */,
 			);
