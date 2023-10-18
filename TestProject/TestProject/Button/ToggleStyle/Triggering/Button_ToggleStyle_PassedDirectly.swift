@@ -15,56 +15,56 @@ struct Button_ToggleStyle_PassedDirectly: View {
 
             // T2.1
             Button("hello", action: {})
-                .foregroundColor(.black)
+                .foregroundColor(.accentColor)
                 .background(.white)
 
             // T2.2
             Button("hello", action: {})
-                .foregroundColor(.black)
+                .foregroundColor(.accentColor)
                 .background(.white, ignoresSafeAreaEdges: [])
 
             // T2.3
             Button("hello", action: {})
-                .foregroundColor(Color.black)
+                .foregroundColor(Color.accentColor)
                 .background(.white)
 
             // T2.4
             Button("hello", action: {})
-                .foregroundColor(.black)
+                .foregroundColor(.accentColor)
                 .background(Color.white)
 
             // T2.5
             Button("hello", action: {})
-                .foregroundColor(.black)
+                .foregroundColor(.accentColor)
                 .background(.white, in: Rectangle())
 
             // T2.6
             Button("hello", action: {})
-                .foregroundColor(.black)
+                .foregroundColor(.accentColor)
                 .background(.white, in: Rectangle(), fillStyle: FillStyle())
 
             // T2.7
             Button("hello", action: {})
-                .foregroundColor(.black)
+                .foregroundColor(.accentColor)
                 .background {
                     Color.white
                 }
 
             // T2.8
             Button("hello", action: {})
-                .foregroundColor(.black)
+                .foregroundColor(.accentColor)
                 .background(alignment: .center) {
                     Color.white
                 }
 
             // T2.9
             Button("hello", action: {})
-                .foregroundColor(.black)
+                .foregroundColor(.accentColor)
                 .background(content: { Color.white })
 
             // T2.10
             Button("hello", action: {})
-                .foregroundColor(.black)
+                .foregroundColor(.accentColor)
                 .background(
                     alignment: .center,
                     content: { Color.white }
@@ -75,7 +75,7 @@ struct Button_ToggleStyle_PassedDirectly: View {
                 Button("hello", action: {})
                 Button("hello", action: {})
             }
-            .foregroundColor(.black)
+            .foregroundColor(.accentColor)
             .background(.white)
 
             // T2.12
@@ -84,7 +84,7 @@ struct Button_ToggleStyle_PassedDirectly: View {
                 Button("hello", action: {})
             }
             .background(.white)
-            .foregroundColor(.black)
+            .foregroundColor(.accentColor)
         }
     }
 }
