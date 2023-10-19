@@ -15,7 +15,7 @@ struct TabBar_NonEmptyLabel_OnlyText: View {
         TabView {
             Text("Tab 1")
                 .tabItem {
-                    Text("some text without image")
+                    Label("Tab 1", systemImage: "heart.fill")
                 }
         }
     }

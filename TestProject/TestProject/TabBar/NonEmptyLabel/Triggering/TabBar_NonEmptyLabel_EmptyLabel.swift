@@ -15,14 +15,14 @@ struct TabBar_NonEmptyLabel_EmptyLabel: View {
             // T1.1
             Text("Tab 1")
                 .tabItem {
-                    Label("", systemImage: "heart.fill")
+                    Label("Tab 1", systemImage: "heart.fill")
                 }
 
             // T1.2
 
             Text("Tab 2")
                 .tabItem {
-                    Label(" ", systemImage: "heart.fill")
+                    Label("Tab 2", systemImage: "heart.fill")
                 }
         }
     }
