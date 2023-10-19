@@ -11,6 +11,7 @@ struct TabBar_NonEmptyLabel_TextAndImage: View {
 
     var body: some View {
 
+        // NT2
         TabView {
             Text("Tab 1")
                 .tabItem {

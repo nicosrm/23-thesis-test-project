@@ -11,6 +11,7 @@ struct TabBar_NonEmptyLabel_OnlyText: View {
 
     var body: some View {
 
+        // T3
         TabView {
             Text("Tab 1")
                 .tabItem {

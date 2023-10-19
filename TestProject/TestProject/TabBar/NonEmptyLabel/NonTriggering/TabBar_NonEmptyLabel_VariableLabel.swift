@@ -13,6 +13,7 @@ struct TabBar_NonEmptyLabel_VariableLabel: View {
 
     var body: some View {
 
+        // NT3
         TabView {
             Text("Tab 1")
                 .tabItem {
