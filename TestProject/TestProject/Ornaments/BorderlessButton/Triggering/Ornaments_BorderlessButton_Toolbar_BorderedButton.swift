@@ -17,7 +17,7 @@ struct Ornaments_BorderlessButton_Toolbar_BorderedButton: View {
                 .toolbar {
                     ToolbarItemGroup(placement: .bottomOrnament) {
                         Button("bordered", action: {})
-                            .buttonStyle(.bordered)
+                            .buttonStyle(.borderless)
                     }
                 }
         }

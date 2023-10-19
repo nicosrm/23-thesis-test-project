@@ -17,7 +17,7 @@ struct Ornaments_BorderlessButton_Toolbar_BorderedProminentButton: View {
                 .toolbar {
                     ToolbarItemGroup(placement: .bottomOrnament) {
                         Button("prominent", action: {})
-                            .buttonStyle(.borderedProminent)
+                            .buttonStyle(.borderless)
                     }
                 }
         }

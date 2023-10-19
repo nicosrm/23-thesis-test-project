@@ -16,7 +16,7 @@ struct Ornaments_BorderlessButton_Ornament_BorderedProminentButton: View {
             Text("View with a toolbar")
                 .ornament(attachmentAnchor: .scene(.bottom)) {
                     Button("button", action: {})
-                        .buttonStyle(.borderedProminent)
+                        .buttonStyle(.borderless)
                 }
         }
     }
