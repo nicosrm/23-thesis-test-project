@@ -11,18 +11,14 @@ struct Ornament_SystemProvided_TabBar: View {
 
     var body: some View {
 
-        Text("Hello World")
-            .ornament(attachmentAnchor: .scene(.leading)) {
-                VStack {
-                    ForEach(0..<5) { number in
-                        Button("Button \(number)", action: {})
+        TabView {
+            ForEach(0..<5) { number in
+                Text("Hello World, #\(number)")
+                    .tabItem {
+                        Label("Button \(number)", systemImage: "numbersign")
                     }
-                }
-                .buttonStyle(.borderless)
-                .buttonBorderShape(.capsule)
-                .padding()
-                .glassBackgroundEffect()
             }
+        }
     }
 }
 

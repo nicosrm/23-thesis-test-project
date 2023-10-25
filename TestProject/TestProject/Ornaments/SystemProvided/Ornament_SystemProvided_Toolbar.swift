@@ -11,18 +11,16 @@ struct Ornament_SystemProvided_Toolbar: View {
 
     var body: some View {
 
-        Text("Hello World")
-            .ornament(attachmentAnchor: .scene(.bottom)) {
-                HStack {
-                    ForEach(0..<5) { number in
-                        Button("Button \(number)", action: {})
+        NavigationStack {
+            Text("Hello World")
+                .toolbar {
+                    ToolbarItemGroup(placement: .bottomOrnament) {
+                        ForEach(0..<5) { number in
+                            Button("Button \(number)", action: {})
+                        }
                     }
                 }
-                .buttonStyle(.borderless)
-                .buttonBorderShape(.capsule)
-                .padding()
-                .glassBackgroundEffect()
-            }
+        }
     }
 }
 
