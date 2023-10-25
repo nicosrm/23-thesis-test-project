@@ -45,6 +45,12 @@
 		B68711B02AE11E8800D7E8DC /* TabBar_NonEmptyLabel_OnlyText.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68711AF2AE11E8800D7E8DC /* TabBar_NonEmptyLabel_OnlyText.swift */; };
 		B68711B22AE11E9E00D7E8DC /* TabBar_NonEmptyLabel_OnlyImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68711B12AE11E9E00D7E8DC /* TabBar_NonEmptyLabel_OnlyImage.swift */; };
 		B68711B92AE7DCDB00D7E8DC /* TabBar_MoveToSideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68711B82AE7DCDB00D7E8DC /* TabBar_MoveToSideBar.swift */; };
+		B68711BE2AE908BF00D7E8DC /* Ornaments_Visibility_NoVisibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68711BD2AE908BF00D7E8DC /* Ornaments_Visibility_NoVisibility.swift */; };
+		B68711C02AE908E900D7E8DC /* Ornaments_Visibility_Visible.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68711BF2AE908E900D7E8DC /* Ornaments_Visibility_Visible.swift */; };
+		B68711C22AE908FF00D7E8DC /* Ornaments_Visibility_Automatic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68711C12AE908FF00D7E8DC /* Ornaments_Visibility_Automatic.swift */; };
+		B68711C42AE9094400D7E8DC /* Ornaments_Visibility_Hidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68711C32AE9094400D7E8DC /* Ornaments_Visibility_Hidden.swift */; };
+		B68711C62AE9098700D7E8DC /* Ornaments_Visibility_VariableHidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68711C52AE9098700D7E8DC /* Ornaments_Visibility_VariableHidden.swift */; };
+		B68711C82AE909AC00D7E8DC /* Ornaments_Visibility_VariableVisible.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68711C72AE909AC00D7E8DC /* Ornaments_Visibility_VariableVisible.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +94,12 @@
 		B68711AF2AE11E8800D7E8DC /* TabBar_NonEmptyLabel_OnlyText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar_NonEmptyLabel_OnlyText.swift; sourceTree = "<group>"; };
 		B68711B12AE11E9E00D7E8DC /* TabBar_NonEmptyLabel_OnlyImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar_NonEmptyLabel_OnlyImage.swift; sourceTree = "<group>"; };
 		B68711B82AE7DCDB00D7E8DC /* TabBar_MoveToSideBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar_MoveToSideBar.swift; sourceTree = "<group>"; };
+		B68711BD2AE908BF00D7E8DC /* Ornaments_Visibility_NoVisibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornaments_Visibility_NoVisibility.swift; sourceTree = "<group>"; };
+		B68711BF2AE908E900D7E8DC /* Ornaments_Visibility_Visible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornaments_Visibility_Visible.swift; sourceTree = "<group>"; };
+		B68711C12AE908FF00D7E8DC /* Ornaments_Visibility_Automatic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornaments_Visibility_Automatic.swift; sourceTree = "<group>"; };
+		B68711C32AE9094400D7E8DC /* Ornaments_Visibility_Hidden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornaments_Visibility_Hidden.swift; sourceTree = "<group>"; };
+		B68711C52AE9098700D7E8DC /* Ornaments_Visibility_VariableHidden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornaments_Visibility_VariableHidden.swift; sourceTree = "<group>"; };
+		B68711C72AE909AC00D7E8DC /* Ornaments_Visibility_VariableVisible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornaments_Visibility_VariableVisible.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -280,6 +292,7 @@
 			isa = PBXGroup;
 			children = (
 				B68711842AE106A600D7E8DC /* BorderlessButton */,
+				B68711BA2AE9088400D7E8DC /* Visibility */,
 			);
 			path = Ornaments;
 			sourceTree = "<group>";
@@ -362,6 +375,35 @@
 				B68711B82AE7DCDB00D7E8DC /* TabBar_MoveToSideBar.swift */,
 			);
 			path = MoveToSidebar;
+			sourceTree = "<group>";
+		};
+		B68711BA2AE9088400D7E8DC /* Visibility */ = {
+			isa = PBXGroup;
+			children = (
+				B68711BC2AE9089E00D7E8DC /* NonTriggering */,
+				B68711BB2AE9089800D7E8DC /* Triggering */,
+			);
+			path = Visibility;
+			sourceTree = "<group>";
+		};
+		B68711BB2AE9089800D7E8DC /* Triggering */ = {
+			isa = PBXGroup;
+			children = (
+				B68711C32AE9094400D7E8DC /* Ornaments_Visibility_Hidden.swift */,
+				B68711C52AE9098700D7E8DC /* Ornaments_Visibility_VariableHidden.swift */,
+			);
+			path = Triggering;
+			sourceTree = "<group>";
+		};
+		B68711BC2AE9089E00D7E8DC /* NonTriggering */ = {
+			isa = PBXGroup;
+			children = (
+				B68711C12AE908FF00D7E8DC /* Ornaments_Visibility_Automatic.swift */,
+				B68711BD2AE908BF00D7E8DC /* Ornaments_Visibility_NoVisibility.swift */,
+				B68711C72AE909AC00D7E8DC /* Ornaments_Visibility_VariableVisible.swift */,
+				B68711BF2AE908E900D7E8DC /* Ornaments_Visibility_Visible.swift */,
+			);
+			path = NonTriggering;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -476,6 +518,7 @@
 				B68711AC2AE11E0C00D7E8DC /* TabBar_NonEmptyLabel_VariableLabel.swift in Sources */,
 				B687116F2ADE956900D7E8DC /* Button_ToggleStyle_NonTriggering.swift in Sources */,
 				B68711982AE10A8E00D7E8DC /* Ornaments_BorderlessButton_Ornament_BorderedButton.swift in Sources */,
+				B68711C82AE909AC00D7E8DC /* Ornaments_Visibility_VariableVisible.swift in Sources */,
 				B637EEA82ADC37860010BCC0 /* Button_FeedbackSound_AVAudioPlayer.swift in Sources */,
 				B637EEC52ADD202B0010BCC0 /* Button_FocusShape_NonTriggering.swift in Sources */,
 				B68711B22AE11E9E00D7E8DC /* TabBar_NonEmptyLabel_OnlyImage.swift in Sources */,
@@ -484,14 +527,19 @@
 				B68711712ADE95BC00D7E8DC /* Button_ToggleStyle_PassedDirectly.swift in Sources */,
 				B68711AA2AE11DF600D7E8DC /* TabBar_NonEmptyLabel_EmptyLabel.swift in Sources */,
 				B637EECB2ADD20810010BCC0 /* Button_FocusShape_HoverEffectMissing.swift in Sources */,
+				B68711C02AE908E900D7E8DC /* Ornaments_Visibility_Visible.swift in Sources */,
+				B68711C22AE908FF00D7E8DC /* Ornaments_Visibility_Automatic.swift in Sources */,
 				B637EEDB2ADD4C050010BCC0 /* NavBar_TitleLength_Variable.swift in Sources */,
 				B68711902AE108C900D7E8DC /* Ornaments_BorderlessButton_Toolbar_BorderlessButton.swift in Sources */,
 				B68711B92AE7DCDB00D7E8DC /* TabBar_MoveToSideBar.swift in Sources */,
+				B68711C42AE9094400D7E8DC /* Ornaments_Visibility_Hidden.swift in Sources */,
 				B68711732ADE971400D7E8DC /* Button_ToggleStyle_Variable.swift in Sources */,
 				B68711B02AE11E8800D7E8DC /* TabBar_NonEmptyLabel_OnlyText.swift in Sources */,
 				B68711752ADE97DF00D7E8DC /* Button_ToggleStyle_DifferentScope.swift in Sources */,
 				B68711A62AE11D5700D7E8DC /* TabBar_NonEmptyLabel_Label.swift in Sources */,
 				B687119E2AE10B0500D7E8DC /* Ornaments_BorderlessButton_Toolbar_BorderedProminentButton.swift in Sources */,
+				B68711C62AE9098700D7E8DC /* Ornaments_Visibility_VariableHidden.swift in Sources */,
+				B68711BE2AE908BF00D7E8DC /* Ornaments_Visibility_NoVisibility.swift in Sources */,
 				B637EEAC2ADC39630010BCC0 /* Button_FeedbackSound_Triggering.swift in Sources */,
 				B637EE8D2ADC32740010BCC0 /* TestProjectApp.swift in Sources */,
 				B687119C2AE10AE700D7E8DC /* Ornaments_BorderlessButton_Toolbar_BorderedButton.swift in Sources */,
