@@ -15,7 +15,7 @@ struct Ornament_Width_OrnamentWide: View {
         Text("Hello World")
             .ornament(attachmentAnchor: .scene(.bottom)) {
                 HStack {
-                    ForEach(0..<10) { number in
+                    ForEach(0..<7) { number in
                         Button("Button \(number)", action: {})
                     }
                 }

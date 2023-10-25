@@ -16,7 +16,7 @@ struct Ornament_Width_ToolbarWide: View {
             Text("Hello World")
                 .toolbar {
                     ToolbarItemGroup(placement: .bottomOrnament) {
-                        ForEach(0..<10) { number in
+                        ForEach(0..<7) { number in
                             Button("Button \(number)", action: {})
                         }
                     }
