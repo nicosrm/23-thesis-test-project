@@ -13,4 +13,4 @@ opt_in_rules:
   # - button_shape_vstack_warning
   # - navigation_title_length_warning
   # - ornament_system_warning
-  # - ornament_width_warning
+  - ornament_width_warning
