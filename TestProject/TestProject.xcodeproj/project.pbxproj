@@ -55,6 +55,8 @@
 		B68711CF2AE91B5400D7E8DC /* Ornament_Width_ToolbarWide.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68711CE2AE91B5400D7E8DC /* Ornament_Width_ToolbarWide.swift */; };
 		B68711D12AE91C6000D7E8DC /* Ornament_Width_OrnamentOk.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68711D02AE91C6000D7E8DC /* Ornament_Width_OrnamentOk.swift */; };
 		B68711D32AE91C7800D7E8DC /* Ornament_Width_ToolbarOk.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68711D22AE91C7800D7E8DC /* Ornament_Width_ToolbarOk.swift */; };
+		B68711DA2AE945DE00D7E8DC /* Ornament_SystemProvided_TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68711D92AE945DE00D7E8DC /* Ornament_SystemProvided_TabBar.swift */; };
+		B68711DC2AE945F600D7E8DC /* Ornament_SystemProvided_Toolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68711DB2AE945F600D7E8DC /* Ornament_SystemProvided_Toolbar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -108,6 +110,8 @@
 		B68711CE2AE91B5400D7E8DC /* Ornament_Width_ToolbarWide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornament_Width_ToolbarWide.swift; sourceTree = "<group>"; };
 		B68711D02AE91C6000D7E8DC /* Ornament_Width_OrnamentOk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornament_Width_OrnamentOk.swift; sourceTree = "<group>"; };
 		B68711D22AE91C7800D7E8DC /* Ornament_Width_ToolbarOk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornament_Width_ToolbarOk.swift; sourceTree = "<group>"; };
+		B68711D92AE945DE00D7E8DC /* Ornament_SystemProvided_TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornament_SystemProvided_TabBar.swift; sourceTree = "<group>"; };
+		B68711DB2AE945F600D7E8DC /* Ornament_SystemProvided_Toolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornament_SystemProvided_Toolbar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -300,6 +304,7 @@
 			isa = PBXGroup;
 			children = (
 				B68711842AE106A600D7E8DC /* BorderlessButton */,
+				B68711D42AE9457100D7E8DC /* SystemProvided */,
 				B68711BA2AE9088400D7E8DC /* Visibility */,
 				B68711C92AE91A2E00D7E8DC /* Width */,
 			);
@@ -442,6 +447,15 @@
 			path = NonTriggering;
 			sourceTree = "<group>";
 		};
+		B68711D42AE9457100D7E8DC /* SystemProvided */ = {
+			isa = PBXGroup;
+			children = (
+				B68711D92AE945DE00D7E8DC /* Ornament_SystemProvided_TabBar.swift */,
+				B68711DB2AE945F600D7E8DC /* Ornament_SystemProvided_Toolbar.swift */,
+			);
+			path = SystemProvided;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -566,6 +580,7 @@
 				B68711712ADE95BC00D7E8DC /* Button_ToggleStyle_PassedDirectly.swift in Sources */,
 				B68711AA2AE11DF600D7E8DC /* TabBar_NonEmptyLabel_EmptyLabel.swift in Sources */,
 				B637EECB2ADD20810010BCC0 /* Button_FocusShape_HoverEffectMissing.swift in Sources */,
+				B68711DA2AE945DE00D7E8DC /* Ornament_SystemProvided_TabBar.swift in Sources */,
 				B68711C02AE908E900D7E8DC /* Ornaments_Visibility_Visible.swift in Sources */,
 				B68711C22AE908FF00D7E8DC /* Ornaments_Visibility_Automatic.swift in Sources */,
 				B637EEDB2ADD4C050010BCC0 /* NavBar_TitleLength_Variable.swift in Sources */,
@@ -575,6 +590,7 @@
 				B68711732ADE971400D7E8DC /* Button_ToggleStyle_Variable.swift in Sources */,
 				B68711B02AE11E8800D7E8DC /* TabBar_NonEmptyLabel_OnlyText.swift in Sources */,
 				B68711752ADE97DF00D7E8DC /* Button_ToggleStyle_DifferentScope.swift in Sources */,
+				B68711DC2AE945F600D7E8DC /* Ornament_SystemProvided_Toolbar.swift in Sources */,
 				B68711A62AE11D5700D7E8DC /* TabBar_NonEmptyLabel_Label.swift in Sources */,
 				B687119E2AE10B0500D7E8DC /* Ornaments_BorderlessButton_Toolbar_BorderedProminentButton.swift in Sources */,
 				B68711D12AE91C6000D7E8DC /* Ornament_Width_OrnamentOk.swift in Sources */,
