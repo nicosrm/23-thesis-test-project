@@ -13,7 +13,7 @@ struct Ornaments_Visibility_Hidden: View {
 
         Text("Hello World")
             .ornament(
-                visibility: Visibility.hidden,
+                visibility: Visibility.visible,
                 attachmentAnchor: .scene(.bottom)
             ) {
                 Button("Inside ornament", action: {})

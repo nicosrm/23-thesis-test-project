@@ -9,7 +9,7 @@ import SwiftUI
 
 struct Ornaments_Visibility_VariableHidden: View {
 
-    var visibility = Visibility.hidden
+    var visibility = Visibility.visible
 
     var body: some View {
 
