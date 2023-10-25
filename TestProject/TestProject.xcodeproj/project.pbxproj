@@ -51,6 +51,10 @@
 		B68711C42AE9094400D7E8DC /* Ornaments_Visibility_Hidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68711C32AE9094400D7E8DC /* Ornaments_Visibility_Hidden.swift */; };
 		B68711C62AE9098700D7E8DC /* Ornaments_Visibility_VariableHidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68711C52AE9098700D7E8DC /* Ornaments_Visibility_VariableHidden.swift */; };
 		B68711C82AE909AC00D7E8DC /* Ornaments_Visibility_VariableVisible.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68711C72AE909AC00D7E8DC /* Ornaments_Visibility_VariableVisible.swift */; };
+		B68711CD2AE91A9B00D7E8DC /* Ornament_Width_OrnamentWide.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68711CC2AE91A9B00D7E8DC /* Ornament_Width_OrnamentWide.swift */; };
+		B68711CF2AE91B5400D7E8DC /* Ornament_Width_ToolbarWide.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68711CE2AE91B5400D7E8DC /* Ornament_Width_ToolbarWide.swift */; };
+		B68711D12AE91C6000D7E8DC /* Ornament_Width_OrnamentOk.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68711D02AE91C6000D7E8DC /* Ornament_Width_OrnamentOk.swift */; };
+		B68711D32AE91C7800D7E8DC /* Ornament_Width_ToolbarOk.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68711D22AE91C7800D7E8DC /* Ornament_Width_ToolbarOk.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -100,6 +104,10 @@
 		B68711C32AE9094400D7E8DC /* Ornaments_Visibility_Hidden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornaments_Visibility_Hidden.swift; sourceTree = "<group>"; };
 		B68711C52AE9098700D7E8DC /* Ornaments_Visibility_VariableHidden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornaments_Visibility_VariableHidden.swift; sourceTree = "<group>"; };
 		B68711C72AE909AC00D7E8DC /* Ornaments_Visibility_VariableVisible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornaments_Visibility_VariableVisible.swift; sourceTree = "<group>"; };
+		B68711CC2AE91A9B00D7E8DC /* Ornament_Width_OrnamentWide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornament_Width_OrnamentWide.swift; sourceTree = "<group>"; };
+		B68711CE2AE91B5400D7E8DC /* Ornament_Width_ToolbarWide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornament_Width_ToolbarWide.swift; sourceTree = "<group>"; };
+		B68711D02AE91C6000D7E8DC /* Ornament_Width_OrnamentOk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornament_Width_OrnamentOk.swift; sourceTree = "<group>"; };
+		B68711D22AE91C7800D7E8DC /* Ornament_Width_ToolbarOk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornament_Width_ToolbarOk.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -293,6 +301,7 @@
 			children = (
 				B68711842AE106A600D7E8DC /* BorderlessButton */,
 				B68711BA2AE9088400D7E8DC /* Visibility */,
+				B68711C92AE91A2E00D7E8DC /* Width */,
 			);
 			path = Ornaments;
 			sourceTree = "<group>";
@@ -406,6 +415,33 @@
 			path = NonTriggering;
 			sourceTree = "<group>";
 		};
+		B68711C92AE91A2E00D7E8DC /* Width */ = {
+			isa = PBXGroup;
+			children = (
+				B68711CB2AE91A4000D7E8DC /* NonTriggering */,
+				B68711CA2AE91A3B00D7E8DC /* Triggering */,
+			);
+			path = Width;
+			sourceTree = "<group>";
+		};
+		B68711CA2AE91A3B00D7E8DC /* Triggering */ = {
+			isa = PBXGroup;
+			children = (
+				B68711CC2AE91A9B00D7E8DC /* Ornament_Width_OrnamentWide.swift */,
+				B68711CE2AE91B5400D7E8DC /* Ornament_Width_ToolbarWide.swift */,
+			);
+			path = Triggering;
+			sourceTree = "<group>";
+		};
+		B68711CB2AE91A4000D7E8DC /* NonTriggering */ = {
+			isa = PBXGroup;
+			children = (
+				B68711D02AE91C6000D7E8DC /* Ornament_Width_OrnamentOk.swift */,
+				B68711D22AE91C7800D7E8DC /* Ornament_Width_ToolbarOk.swift */,
+			);
+			path = NonTriggering;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -506,6 +542,7 @@
 				B68711922AE108E600D7E8DC /* Ornaments_BorderlessButton_Toolbar_NoButton.swift in Sources */,
 				B637EEC92ADD20690010BCC0 /* Button_FocusShape_ContentShapeMissing.swift in Sources */,
 				B687118C2AE1076500D7E8DC /* Ornaments_BorderlessButton_Ornament_BorderlessButton.swift in Sources */,
+				B68711D32AE91C7800D7E8DC /* Ornament_Width_ToolbarOk.swift in Sources */,
 				B637EED72ADD48BF0010BCC0 /* NavBar_TitleLength_NonTriggering.swift in Sources */,
 				B637EEC72ADD204D0010BCC0 /* Button_FocusShape_BothMissing.swift in Sources */,
 				B637EEA22ADC368B0010BCC0 /* Button_FeedbackSound_AudioServicesPlaySystemSound.swift in Sources */,
@@ -513,11 +550,13 @@
 				B637EEAF2ADC3BAC0010BCC0 /* Button_FeedbackSound_SystemButton.swift in Sources */,
 				B637EED92ADD4BE00010BCC0 /* NavBar_TitleLength_String.swift in Sources */,
 				B687118E2AE1088500D7E8DC /* Ornaments_BorderlessButton_Toolbar_OnlyButton.swift in Sources */,
+				B68711CD2AE91A9B00D7E8DC /* Ornament_Width_OrnamentWide.swift in Sources */,
 				B68711942AE108FE00D7E8DC /* Ornaments_BorderlessButton_Ornament_NoButton.swift in Sources */,
 				B687119A2AE10ACE00D7E8DC /* Ornaments_BorderlessButton_Ornament_BorderedProminentButton.swift in Sources */,
 				B68711AC2AE11E0C00D7E8DC /* TabBar_NonEmptyLabel_VariableLabel.swift in Sources */,
 				B687116F2ADE956900D7E8DC /* Button_ToggleStyle_NonTriggering.swift in Sources */,
 				B68711982AE10A8E00D7E8DC /* Ornaments_BorderlessButton_Ornament_BorderedButton.swift in Sources */,
+				B68711CF2AE91B5400D7E8DC /* Ornament_Width_ToolbarWide.swift in Sources */,
 				B68711C82AE909AC00D7E8DC /* Ornaments_Visibility_VariableVisible.swift in Sources */,
 				B637EEA82ADC37860010BCC0 /* Button_FeedbackSound_AVAudioPlayer.swift in Sources */,
 				B637EEC52ADD202B0010BCC0 /* Button_FocusShape_NonTriggering.swift in Sources */,
@@ -538,6 +577,7 @@
 				B68711752ADE97DF00D7E8DC /* Button_ToggleStyle_DifferentScope.swift in Sources */,
 				B68711A62AE11D5700D7E8DC /* TabBar_NonEmptyLabel_Label.swift in Sources */,
 				B687119E2AE10B0500D7E8DC /* Ornaments_BorderlessButton_Toolbar_BorderedProminentButton.swift in Sources */,
+				B68711D12AE91C6000D7E8DC /* Ornament_Width_OrnamentOk.swift in Sources */,
 				B68711C62AE9098700D7E8DC /* Ornaments_Visibility_VariableHidden.swift in Sources */,
 				B68711BE2AE908BF00D7E8DC /* Ornaments_Visibility_NoVisibility.swift in Sources */,
 				B637EEAC2ADC39630010BCC0 /* Button_FeedbackSound_Triggering.swift in Sources */,
