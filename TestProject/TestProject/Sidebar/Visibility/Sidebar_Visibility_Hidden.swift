@@ -10,7 +10,7 @@ import SwiftUI
 struct Sidebar_Visibility_Hidden: View {
 
     @State private var selectedItemID: SidebarItem.ID?
-    @State private var sidebarVisible: NavigationSplitViewVisibility = .detailOnly
+    @State private var sidebarVisible: NavigationSplitViewVisibility = .all
 
     private let sidebarItems = [
         SidebarItem(name: "Item 1", systemImage: "numbersign", detailText: "Sidebar Item 1"),
