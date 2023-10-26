@@ -57,6 +57,7 @@
 		B68711D32AE91C7800D7E8DC /* Ornament_Width_ToolbarOk.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68711D22AE91C7800D7E8DC /* Ornament_Width_ToolbarOk.swift */; };
 		B68711DA2AE945DE00D7E8DC /* Ornament_SystemProvided_TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68711D92AE945DE00D7E8DC /* Ornament_SystemProvided_TabBar.swift */; };
 		B68711DC2AE945F600D7E8DC /* Ornament_SystemProvided_Toolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68711DB2AE945F600D7E8DC /* Ornament_SystemProvided_Toolbar.swift */; };
+		B6B445AA2AEA5D1F00107FCE /* Sidebar_Visibility_Hidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B445A92AEA5D1F00107FCE /* Sidebar_Visibility_Hidden.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -112,6 +113,7 @@
 		B68711D22AE91C7800D7E8DC /* Ornament_Width_ToolbarOk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornament_Width_ToolbarOk.swift; sourceTree = "<group>"; };
 		B68711D92AE945DE00D7E8DC /* Ornament_SystemProvided_TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornament_SystemProvided_TabBar.swift; sourceTree = "<group>"; };
 		B68711DB2AE945F600D7E8DC /* Ornament_SystemProvided_Toolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornament_SystemProvided_Toolbar.swift; sourceTree = "<group>"; };
+		B6B445A92AEA5D1F00107FCE /* Sidebar_Visibility_Hidden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar_Visibility_Hidden.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 				B637EE9D2ADC363F0010BCC0 /* Button */,
 				B637EED22ADD488E0010BCC0 /* NavigationBar */,
 				B68711762ADFD79400D7E8DC /* Ornaments */,
+				B6B445A72AEA5CA200107FCE /* Sidebar */,
 				B68711A12AE11D0B00D7E8DC /* TabBar */,
 				B637EE922ADC32750010BCC0 /* Preview Content */,
 			);
@@ -456,6 +459,22 @@
 			path = SystemProvided;
 			sourceTree = "<group>";
 		};
+		B6B445A72AEA5CA200107FCE /* Sidebar */ = {
+			isa = PBXGroup;
+			children = (
+				B6B445A82AEA5CAD00107FCE /* Visibility */,
+			);
+			path = Sidebar;
+			sourceTree = "<group>";
+		};
+		B6B445A82AEA5CAD00107FCE /* Visibility */ = {
+			isa = PBXGroup;
+			children = (
+				B6B445A92AEA5D1F00107FCE /* Sidebar_Visibility_Hidden.swift */,
+			);
+			path = Visibility;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -558,6 +577,7 @@
 				B687118C2AE1076500D7E8DC /* Ornaments_BorderlessButton_Ornament_BorderlessButton.swift in Sources */,
 				B68711D32AE91C7800D7E8DC /* Ornament_Width_ToolbarOk.swift in Sources */,
 				B637EED72ADD48BF0010BCC0 /* NavBar_TitleLength_NonTriggering.swift in Sources */,
+				B6B445AA2AEA5D1F00107FCE /* Sidebar_Visibility_Hidden.swift in Sources */,
 				B637EEC72ADD204D0010BCC0 /* Button_FocusShape_BothMissing.swift in Sources */,
 				B637EEA22ADC368B0010BCC0 /* Button_FeedbackSound_AudioServicesPlaySystemSound.swift in Sources */,
 				B68711962AE1094600D7E8DC /* Ornaments_BorderlessButton_Toolbar_NoOrnament.swift in Sources */,
