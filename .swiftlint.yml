@@ -1,5 +1,5 @@
 included:
-  - TestProject/TestProject/Orn*
+  - TestProject/TestProject/*
 
 disabled_rules:
   # default rules
