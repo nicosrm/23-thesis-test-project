@@ -17,17 +17,23 @@ struct Button_FocusShape_ContentShapeMissing: View {
 
             // T2.1
             Text("Hello World")
-                .onTapGesture {
+                .onTapGestureWithSoundAndHoverEffect(
+                    soundID: 1104,
+                    hoverEffect: .automatic,
+                    shape: .rect(cornerRadius: 10.0)
+                ) {
                     print("hello")
                 }
-                .hoverEffect(.automatic)
 
             // T2.2
             Text("Hello World")
-                .onTapGesture {
+                .onTapGestureWithSoundAndHoverEffect(
+                    soundID: 1104,
+                    shape: .rect(cornerRadius: 10.0)
+                ) {
                     print("hello")
                 }
-                .hoverEffect()
+
         }
     }
 }

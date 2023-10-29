@@ -17,24 +17,30 @@ struct Button_FocusShape_HoverEffectMissing: View {
 
             // T3.1
             Text("Hello World")
-                .onTapGesture {
+                .onTapGestureWithSoundAndHoverEffect(
+                    soundID: 1104,
+                    shape: Rectangle()
+                ) {
                     print("hello")
                 }
-                .contentShape(.hoverEffect, Rectangle())
 
             // T3.2
             Text("Hello World")
-                .onTapGesture {
+                .onTapGestureWithSoundAndHoverEffect(
+                    soundID: 1104,
+                    shape: Rectangle()
+                ) {
                     print("hello")
                 }
-                .contentShape(.interaction, Rectangle())
 
             // T3.3
             Text("Hello World")
-                .onTapGesture {
+                .onTapGestureWithSoundAndHoverEffect(
+                    soundID: 1104,
+                    shape: Rectangle()
+                ) {
                     print("hello")
                 }
-                .contentShape(Rectangle())
         }
     }
 }

@@ -18,14 +18,19 @@ struct Button_FocusShape_BothMissing: View {
 
             // T1.1
             Text("Hello World")
-                .onTapGesture {
+                .onTapGestureWithSoundAndHoverEffect(
+                    soundID: 1104,
+                    shape: .rect(cornerRadius: 10.0)
+                ) {
                     print("hello")
                 }
 
             // T1.2
             Text("Hello World")
-                .onTapGesture(
+                .onTapGestureWithSoundAndHoverEffect(
                     count: 1,
+                    soundID: 1104,
+                    shape: .rect(cornerRadius: 10.0),
                     perform: {
                         print("hello")
                     }
@@ -33,8 +38,12 @@ struct Button_FocusShape_BothMissing: View {
 
             // T1.3
             Text("Hello World")
-                .onTapGesture(count: 1) {
-                   print("hello")
+                .onTapGestureWithSoundAndHoverEffect(
+                    count: 1,
+                    soundID: 1104,
+                    shape: .rect(cornerRadius: 10.0)
+                ) {
+                    print("hello")
                 }
         }
     }
