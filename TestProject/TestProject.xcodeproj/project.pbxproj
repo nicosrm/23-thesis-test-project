@@ -58,6 +58,7 @@
 		B68711DA2AE945DE00D7E8DC /* Ornament_SystemProvided_TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68711D92AE945DE00D7E8DC /* Ornament_SystemProvided_TabBar.swift */; };
 		B68711DC2AE945F600D7E8DC /* Ornament_SystemProvided_Toolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68711DB2AE945F600D7E8DC /* Ornament_SystemProvided_Toolbar.swift */; };
 		B6B445AA2AEA5D1F00107FCE /* Sidebar_Visibility_Hidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B445A92AEA5D1F00107FCE /* Sidebar_Visibility_Hidden.swift */; };
+		B6B445B42AEE6B9300107FCE /* View+onTapGestureWithSoundAndHoverEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B445B32AEE6B9300107FCE /* View+onTapGestureWithSoundAndHoverEffect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -114,6 +115,7 @@
 		B68711D92AE945DE00D7E8DC /* Ornament_SystemProvided_TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornament_SystemProvided_TabBar.swift; sourceTree = "<group>"; };
 		B68711DB2AE945F600D7E8DC /* Ornament_SystemProvided_Toolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ornament_SystemProvided_Toolbar.swift; sourceTree = "<group>"; };
 		B6B445A92AEA5D1F00107FCE /* Sidebar_Visibility_Hidden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar_Visibility_Hidden.swift; sourceTree = "<group>"; };
+		B6B445B32AEE6B9300107FCE /* View+onTapGestureWithSoundAndHoverEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+onTapGestureWithSoundAndHoverEffect.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 				B637EE8E2ADC32740010BCC0 /* ContentView.swift */,
 				B637EE902ADC32750010BCC0 /* Assets.xcassets */,
 				B637EE952ADC32750010BCC0 /* Info.plist */,
+				B6B445B52AEE6BB200107FCE /* Extensions */,
 				B637EE9D2ADC363F0010BCC0 /* Button */,
 				B637EED22ADD488E0010BCC0 /* NavigationBar */,
 				B68711762ADFD79400D7E8DC /* Ornaments */,
@@ -475,6 +478,14 @@
 			path = Visibility;
 			sourceTree = "<group>";
 		};
+		B6B445B52AEE6BB200107FCE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B6B445B32AEE6B9300107FCE /* View+onTapGestureWithSoundAndHoverEffect.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -592,6 +603,7 @@
 				B68711982AE10A8E00D7E8DC /* Ornaments_BorderlessButton_Ornament_BorderedButton.swift in Sources */,
 				B68711CF2AE91B5400D7E8DC /* Ornament_Width_ToolbarWide.swift in Sources */,
 				B68711C82AE909AC00D7E8DC /* Ornaments_Visibility_VariableVisible.swift in Sources */,
+				B6B445B42AEE6B9300107FCE /* View+onTapGestureWithSoundAndHoverEffect.swift in Sources */,
 				B637EEA82ADC37860010BCC0 /* Button_FeedbackSound_AVAudioPlayer.swift in Sources */,
 				B637EEC52ADD202B0010BCC0 /* Button_FocusShape_NonTriggering.swift in Sources */,
 				B68711B22AE11E9E00D7E8DC /* TabBar_NonEmptyLabel_OnlyImage.swift in Sources */,
