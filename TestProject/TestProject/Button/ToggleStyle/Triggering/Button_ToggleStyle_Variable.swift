@@ -9,7 +9,7 @@ import SwiftUI
 
 struct Button_ToggleStyle_Variable: View {
 
-    private let foregroundColor = Color.black
+    private let foregroundColor = Color.accentColor
     private let backgroundColor = Color.white
 
     var body: some View {
